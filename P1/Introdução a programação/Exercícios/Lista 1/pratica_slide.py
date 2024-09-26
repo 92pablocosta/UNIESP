@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 #Prática
 
+=======
+#Prática
+
+>>>>>>> master
