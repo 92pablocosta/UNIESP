@@ -1,7 +1,7 @@
 public final class PratoPrincipal extends Refeicao implements Preparo {
 
-    public PratoPrincipal(Dieta dieta) {
-        super(dieta);
+    public PratoPrincipal(int mesa, String cliente, Dieta dieta) {
+        super(mesa, cliente, dieta);
     }
 
     @Override

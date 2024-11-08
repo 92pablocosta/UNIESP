@@ -6,6 +6,8 @@ public abstract class Refeicao {
 
 
     public Refeicao(int mesa, String cliente, Dieta dieta) {
+        this.cliente = cliente;
+        this.mesa = mesa;
         this.dieta = dieta;
     }
 

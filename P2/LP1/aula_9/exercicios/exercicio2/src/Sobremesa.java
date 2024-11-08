@@ -1,7 +1,7 @@
 public final class Sobremesa extends Refeicao {
 
-    public Sobremesa(Dieta dieta) {
-        super(dieta);
+    public Sobremesa(int mesa, String cliente, Dieta dieta) {
+        super(mesa, cliente, dieta);
     }
 
     @Override

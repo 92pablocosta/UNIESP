@@ -1,7 +1,7 @@
 public final class Entrada extends Refeicao implements Preparo {
 
-    public Entrada(Dieta dieta) {
-        super(dieta);
+    public Entrada(String cliente, int mesa, Dieta dieta) {
+        super(mesa, cliente, dieta);
     }
 
     @Override
