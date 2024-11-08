@@ -1,0 +1,12 @@
+Desenvolva um sistema para gerenciar refeições em um restaurante.
+Crie uma classe Refeição com subclasses Entrada, Prato Principal e
+Sobremesa.
+
+Todas as classes implementam o método preparar() e servir(). Além
+disso, implemente uma interface com assinatura de métodos como
+temperar() e esquentar() – apenas Sobremesa não implementa - e
+utilize um enum TipoRefeicao com VEGANA, GLUTENFREE,
+TRADICIONAL.
+
+Por fim, utilize polimorfismo para garantir um código mais flexível,
+permitindo que os objetos sejam tratados de maneira uniforme
