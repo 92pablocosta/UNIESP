@@ -15,6 +15,23 @@ public abstract class Refeicao {
     public abstract void preparar();
     public abstract void servir();
 
+    // metodo unico da classe
+    public void tipoDieta(int opcao) {
+        switch (opcao) {
+            case 1:
+                dieta = Dieta.TRADICIONAL;
+                break;
+            case 2:
+                dieta = Dieta.VEGANA;
+                break;
+            case 3:
+                dieta = Dieta.GLUTEN_FREE;
+                break;
+            default:
+                System.out.println("Opção inválida");
+        }
+    }
+
     // Set
     public void setMesa(int mesa) {
         this.mesa = mesa;
@@ -22,6 +39,7 @@ public abstract class Refeicao {
     public void setCliente(String cliente) {
         this.cliente = cliente;
     }
+    public void setDieta(Dieta dieta) { this.dieta = dieta; }
 
     // Get
     public int getMesa() {

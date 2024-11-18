@@ -21,7 +21,7 @@ public final class PratoPrincipal extends Refeicao implements Preparo {
 
     @Override
     public void esquentar() {
-        System.out.println("Esquindo seu Prato Principal!");
+        System.out.println("Esquentando seu Prato Principal!");
     }
 
 }

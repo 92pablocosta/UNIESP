@@ -4,12 +4,26 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        Refeicao r1 = new Entrada("Pablo", 18, Dieta.TRADICIONAL);
 
-        System.out.println("Cliente: " + r1.getCliente());
-        System.out.println("Mesa: " + r1.getMesa());
-        System.out.println("Dieta: " + r1.getDieta());
+        int mesa;
+        String nome;
+        int opcao;
 
-        r1.preparar();
+
+        System.out.println("Bem vindo ao Restaurante ComeIESP");
+        System.out.println("Em que mesa você está?");
+        mesa = sc.nextInt();
+
+        System.out.println("Qual o seu nome?");
+        nome = sc.next();
+
+        System.out.println("Alguma restrição de dieta?");
+        System.out.println("[1] Sem restrições");
+        System.out.println("[2] Vegana");
+        System.out.println("[3] Gluten-Free");
+        opcao = sc.nextInt();
+
+
+
     }
 }
