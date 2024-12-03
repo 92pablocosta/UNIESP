@@ -1,0 +1,21 @@
+Questão 1
+a. São 10 nós
+b. Altura 3
+c. O nó H.
+d. A, C, J, L, M, N.
+e. H, B, F, E.
+f. A, C, J, E
+g. H, F
+h. J, E, L, M, N
+
+Questão 2
+a. D, B e por ultimo F.
+b. B, F, D.
+c. B, D, f
+
+Questão 3.
+a. 
+    Pré-ordem: 23
+    Pós-ordem: 23
+    In-ordem: 23
+

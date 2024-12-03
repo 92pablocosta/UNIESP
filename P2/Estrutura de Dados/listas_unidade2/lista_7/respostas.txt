@@ -1,0 +1,31 @@
+Questão 1
+    Sim, temos colisões no 0, 3, 5.
+
+Questão 2
+    O valor do índice é 5.
+
+Questão 3
+    Sim;
+        U e N
+        S, E e L
+        P e I
+
+Questão 4
+    0 - -
+    1 - 22
+    2 - 3920
+    3 - 430
+    4 - 2341, 2839
+    5 - -
+    6 - 4234
+
+Questão 5
+    0 - -
+    1 - 1
+    2 - 2
+    3 a 7 - -
+    8 - 42
+    9 - 43, 77, 111
+    10 a 14 - -
+    15 - 32
+    16 - 16
