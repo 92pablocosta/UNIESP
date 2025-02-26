@@ -1,6 +1,6 @@
 package ex3;
 
-public class Carro extends Motor {
+public final class Carro extends Motor {
     private Motor motor;
 
     public Carro() {
